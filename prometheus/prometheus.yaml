@@ -77,7 +77,7 @@ spec:
       # https://github.com/kubernetes/kubernetes/tree/master/examples/kubectl-container
       - image: "lachlanevenson/k8s-kubectl"
         name: kubectl
-        args: [ "proxy", "-p",  "8001" ]
+        args: [ "proxy", "--port=8001", "--accept-paths=^*$" ]
       dnsPolicy: ClusterFirst
       nodeSelector:
         kraken-node: node-001
