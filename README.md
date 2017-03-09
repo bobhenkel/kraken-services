@@ -1,4 +1,8 @@
 # kraken-services
+DEPRECATION NOTICE:  this project has been superceded by [K2-Charts](https://github.com/samsung-cnct/k2-charts).  Issues have been locked
+and all work going forward will be against the K2-charts repository.
+
+
 
 Services for use on a kraken cluster.
 
